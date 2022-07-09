@@ -78,7 +78,7 @@ $("body").on("keypress", () => {
 $(".btn").on("click", (event) => {
 //   console.log(event.currentTarget.id);
   var id = event.currentTarget.id;
-  console.log(id);
+ // console.log(id);
   if(id=='green'){
     greenSound.play();
   }
