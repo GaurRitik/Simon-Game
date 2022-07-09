@@ -75,6 +75,14 @@ $("body").on("keypress", () => {
   }
 });
 
+$(".start").on("click", () => {
+  // console.log(pattern.length==0);
+
+  if (pattern.length == 0) {
+    blink();
+  }
+});
+
 $(".btn").on("click", (event) => {
 //   console.log(event.currentTarget.id);
   var id = event.currentTarget.id;
